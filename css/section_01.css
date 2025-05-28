@@ -1,6 +1,6 @@
-#s1 {
+#s1.container {
     background-color: var(--bg-color-2);
-    min-width: 100dvh;
+    min-width: 0;
     background-image: url("../img/bg_wave_m.svg");
     background-repeat: repeat-x;
     background-position: left bottom;
