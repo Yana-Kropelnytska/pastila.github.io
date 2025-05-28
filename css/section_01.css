@@ -5,6 +5,7 @@
     background-repeat: repeat-x;
     background-position: left bottom;
     background-size: 250px;
+    margin-top: -1px;
 }
 
 #s1 .inside {
