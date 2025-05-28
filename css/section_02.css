@@ -1,0 +1,88 @@
+#s2 {
+    background-color: var(--bg-color-3);
+    min-width: 0;
+    background-image: url("../img/bg_wave_p.svg");
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    background-size: 250px;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+    
+}
+
+#s2 .inside {
+    position: relative;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#s2 .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: var(--max-width);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#s2 .row .col {
+    width: 32%;
+}
+
+#s2 .col h2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    max-width: 250px;
+}
+
+.adv-item {
+    position: relative;
+
+}
+
+.adv-item p {
+    margin-top: 10px;
+    font-weight: 500;
+    color: #fff;
+    max-width: 220px;
+    text-transform: uppercase;
+    letter-spacing: .025em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.badge {
+    max-width: 120px;
+    font-size: .9rem;
+    font-weight: 100;
+    border-radius: 30px;
+    padding: 8px 20px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.badge.green { background-color: #7ad147; }
+.badge.pink { background-color: #FF86BE; }
+.badge.yellow { background-color: #FFCB00; }
+.badge.blue { background-color: #005DD0; }
+
+.adv-item.snail {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 30%;
+}
+
+.adv-item.snail img {
+    display: block;
+    width: 100%;
+}

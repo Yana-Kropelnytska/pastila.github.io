@@ -1,0 +1,87 @@
+#s1 {
+    background-color: var(--bg-color-2);
+    min-width: 100dvh;
+    background-image: url("../img/bg_wave_m.svg");
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    background-size: 250px;
+}
+
+#s1 .inside {
+    padding-bottom: 100px;
+    position: relative;
+}
+
+#s1 h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+    margin-bottom: 2em;
+}
+
+#s1 .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#s1 .col {
+    /* flex-basis: 24%; */
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#s1 h3 {
+    padding-top: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+#s1 .col img {
+    display: block;
+    max-width: 100%;
+    width: 30%;
+}
+
+.button {
+    color: var(--btn-color-1);
+    border-radius: var(--bord-radius);
+    padding: 3px 15px;
+}
+
+.green {
+    background-color: #8FC529;
+}
+
+.pink {
+    background-color: #8F1D71;
+}
+
+.red {
+    background-color: #FF7300;
+}
+
+.blue {
+    background-color: #005DD0;
+}
+
+#s1 .label {
+    position: absolute;
+    left:0;
+    top:0;
+    width: 30%;
+    z-index: 1;
+}
+
+.label img {
+    display: block;
+    max-width: 100%;
+}

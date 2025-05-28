@@ -1,0 +1,28 @@
+#s4 {
+    padding: 0;
+    min-height: 0;
+}
+
+#s4 .inside {
+    max-width: none;
+    padding: 0;
+
+}
+
+.gif-gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0;
+    background-color: #fdd0f2; 
+    padding: 0;
+  }
+  
+  .gif-gallery img {
+    display: block;
+    max-width: 100%;
+    width: 25%;
+    height: auto;
+    /* border-radius: 10px; */
+    box-shadow: 0 4px 10 rgba(0,0,0,0.2);
+  }

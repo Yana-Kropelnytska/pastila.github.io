@@ -1,0 +1,15 @@
+footer {
+margin-top: -1px;
+}
+
+footer .inside {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.input-container > div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
